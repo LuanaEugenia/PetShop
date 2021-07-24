@@ -1,0 +1,12 @@
+{
+  "name": "pet-shop",
+  "version": "1.0.0",
+  "description": "Nossa empresa é especializada no cuidado dos animais. Com mais de 30 anos no mercado, somos internacionalmente reconhecidos e temos a maior taxa de aprovação, sempre com um bom trabalho para nossos clientes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["petshop", "animais", "tosa", "banho", "serviços", "passeio", "acessórios"],
+  "author": "Luana Eugênia",
+  "license": "MIT"
+}
