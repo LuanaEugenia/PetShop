@@ -9,6 +9,10 @@ body {
   background-color: #f0f0f0;
 }
 
+.container {
+  padding: 0 30px;
+}
+
 .card {
   box-shadow: 0 0 10px 0 #cccccc;
   margin: 10px;
@@ -98,4 +102,10 @@ body {
 .servicos {
   display: grid;
   grid-template-columns: auto auto;
+}
+
+.rodape {
+  background: chocolate;
+  padding: 10px;
+  text-align: center;
 }
