@@ -2,6 +2,27 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f0f0f0;
+}
+
+.card {
+  box-shadow: 0 0 10px 0 #cccccc;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+}
+
+.card h2 {
+  margin-bottom: 5px;
+}
+
+.card img {
+  width: 100%;
 }
 
 .menu {
@@ -62,4 +83,19 @@
   font-size: 3em;
   color: chocolate;
   font-weight: bold;
+}
+
+.secao h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2em;
+}
+
+.secao p {
+  text-align: justify;
+}
+
+.servicos {
+  display: grid;
+  grid-template-columns: auto auto;
 }
