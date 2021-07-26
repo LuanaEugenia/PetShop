@@ -13,6 +13,58 @@ body {
   padding: 0 30px;
 }
 
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.jc-end {
+  justify-content: flex-end;
+}
+
+.form-control,
+.form-textarea,
+.btn {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #cccccc;
+  transition: transform 1s;
+}
+
+.form-control:active,
+.form-textarea:active,
+.btn:active {
+  transform: scale(1.1);
+}
+
+.form-control:focus,
+.form-textarea:focus {
+  outline: none;
+  border: 2px solid chocolate;
+}
+
+.form-textarea {
+  height: 150px;
+}
+
+.form-control,
+.form-textarea {
+  width: 100%;
+}
+
+.btn {
+  background-color: chocolate;
+  color: white;
+  font-weight: bold;
+}
+
 .card {
   box-shadow: 0 0 10px 0 #cccccc;
   margin: 10px;
